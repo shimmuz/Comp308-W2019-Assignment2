@@ -1,1 +1,52 @@
 /* You can add global styles to this file, and also import other style files */
+/* 
+FIle name: app.css  
+Name : Shefali Sharma
+Id:  300973745
+Date :Feb 16, 2019*/
+
+/* backgrond to website */
+body {
+  /* background-color: rgb(211, 211, 211);   */
+  background-image: url(/public/Content/Assests/images/portfolio.jpg);
+}
+/* heading alignment */
+h1 {
+  color: rgb(14, 10, 51);
+  text-align: center;
+  
+}
+
+/* Heading alignmtn for home page */
+h3{
+  color: brown;
+  text-align: center;
+}
+
+/* to format container */
+.container {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+/* to format panel */
+.panel-body{
+  border-radius: 5px;
+background-color: rgb(189, 223, 228);
+padding: 20px;
+width: 30%
+
+}
+
+
+/* footer formatting */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+

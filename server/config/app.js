@@ -28,8 +28,9 @@ mongoDB.once("open", () => {
 
 //route setup
 
-let indexRouter = require("./routes/index");
-let usersRouter = require("./routes/users");
+let indexRouter = require("../routes/index");
+let usersRouter = require("../routes/users");
+let contactRouter = require("../routes/contact");
 let thingsRouter = require("../routes/favThings");
 
 let app = express();
