@@ -1,0 +1,43 @@
+<% include ../partials/header.ejs %>
+
+
+<!-- contact.ejs -->
+  <div class="container">
+      <div class="jumbotron">
+            <h1 class="display-4">Contact ME</h1>
+            
+            <div class="panel-body">
+                    Shefali Sharma <br>
+
+                    sshar308@my.centennialcollege.ca
+                    <br>
+
+                    05236584236
+            </div>
+            
+            </div>
+            <div class="container">
+                    <form action="action_page.php">
+                        <h2>For queries fill the form...</h2>
+                                                
+                                <label for="fname" style="width: 80px;">First Name</label>
+                                 <input type="text" id="fname" name="firstname" style="width: 250px;" placeholder="Please enter your first name"><br><br>
+                                 <label for="lname" style="width: 80px;">Last Name</label>
+                                 <input type="text" id="fname" name="lastname" style="width: 250px;" placeholder="Please enter your last name"><br><br>
+                                <label for="email" style="width: 80px;">Email ID</label>
+                      <input type="text" id="email" name="emailid" style="width: 250px;" placeholder="Please enter your email id"><br><br>
+                      <label for="phone" style="width: 80px;">Phone</label>
+                      <input type="text" id="phone" name="phoneno" style="width: 250px;" placeholder="Please enter your phone no"><br><br>
+                                    
+                      <label for="message" style="width: 80px;">Message</label>
+                      <textarea id="message" name="message" placeholder="Enter your query here" style="width: 250px;"></textarea><br>
+                      <a class="btn btn-primary btn-lg" href="/" role="button" >Submit</a>
+                      
+                    </form>
+                    
+                  </div> 
+      
+  </div>
+
+  
+  <% include ../partials/footer.ejs %> 
